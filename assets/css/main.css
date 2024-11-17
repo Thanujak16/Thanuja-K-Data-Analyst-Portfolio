@@ -1,7 +1,7 @@
 :root {
   /* Colors
   ____________________*/
-  --color-primary: #25ab75;
+  --color-primary: #5700f8;
   --color-primary-dark: #208c61;
   --color-bg-primary: #0A000E;
   --color-bg-secondary: #242424;
@@ -472,7 +472,10 @@ body {
   font-size: var(--fs-lg);
   margin-bottom: 3rem;
 }
-
+.service__card img{
+  max-width: 115%;
+  width: 110%;
+}
 
 /* Testimonials
 --------------------------------------------------------------*/
