@@ -7,7 +7,7 @@
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
   --color-white: #ffffff;
-  --color-text: #00ff9d;
+  --color-text: #46ffa9;
   --color-border: #373737;
 
   /* Font & Typography
@@ -691,4 +691,8 @@ body {
   .footer__wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.qualification__item ul li img{
+  max-width: 100%;
 }
